@@ -233,12 +233,19 @@ margin-left: auto;
     left: 0;
     z-index: 1000;
     background-color: var(--modal-background-color);
-    padding-left: 40px;
-    padding-bottom: 40px;
-    padding-top: 80px;
+    
+    
+} 
+
+.mobile-menu-container {
+    height: 100%;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 80px;
 }
 
 .mobile-menu-close-btn {
