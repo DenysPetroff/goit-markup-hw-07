@@ -217,28 +217,65 @@
           <h2 class="title">What are we doing</h2>
           <ul class="examples-flex">
             <li>
-              <img
-                src="./images/monitor.jpg"
-                alt="monitor image"
-                width="360"
-                class="image"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/monitor-desktop-webp.webp    1x,
+                    ./images/monitor-desktop@2x-webp.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source srcset="./images/monitor-desktop@2x-min.jpg 2x" />
+                <img
+                  src="./images/monitor-desktop-min.jpg"
+                  alt="monitor image"
+                  width="360"
+                  class="image"
+                />
+              </picture>
             </li>
             <li>
-              <img
-                src="./images/smartphon.jpg"
-                alt="smartphon image"
-                width="360"
-                class="image"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/smartfon-desktop-webp.webp    1x,
+                    ./images/smartfon-desktop@2x-webp.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source srcset="./images/smartfon-desktop@2x-min.jpg 2x" />
+
+                <img
+                  src="./images/smartfon-desktop-min.jpg"
+                  alt="smartphon image"
+                  width="360"
+                  class="image"
+                />
+              </picture>
             </li>
             <li>
-              <img
-                src="./images/NoutSmartphon.jpg"
-                alt="Nout and Smartphone image"
-                width="360"
-                class="image"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/smartfon-labtop-desktop-webp.webp    1x,
+                    ./images/smartfon-labtop-desktop@2x-webp.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  srcset="./images/smartfon-labtop-desktop@2x-min.jpg 2x"
+                />
+
+                <img
+                  src="./images/smartfon-labtop-desktop-min.jpg"
+                  alt="Nout and Smartphone image"
+                  width="360"
+                  class="image"
+                />
+              </picture>
             </li>
           </ul>
         </div>
