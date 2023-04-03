@@ -1368,12 +1368,15 @@ margin-right: auto;
 
 }
 
-.button-customer:hover,
-.button-customer:focus {
+.button-customer:hover {
+    fill: var(--pressed-hover-button-color);
+    border: 1px solid var(--pressed-hover-button-color);
+}
+
+.button-customer:focus   {
     border: 1px solid var(--pressed-hover-button-color);
     fill: var(--pressed-hover-button-color);
-
-}
+    }
 
 .customers-list-item {
     width: calc((100% - 16px) / 2);
