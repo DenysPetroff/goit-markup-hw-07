@@ -1719,7 +1719,6 @@ margin-right: auto;
     }
      .checkbox:checked ~ .checkbox-icon {
         background-color: var(--primary-brand-button-color);
-        stroke: var(--primary-brand-button-color);
         background-size: contain;
         background-origin: border-box;
         border-color: var(--primary-brand-button-color);
