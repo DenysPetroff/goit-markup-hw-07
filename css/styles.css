@@ -828,7 +828,7 @@ margin-right: auto;
 
    @media screen and (min-width: 1200px) {
     
-     .section-hero-one {
+     .section-hero-one { 
         width: 100%;
          max-width: 1400px;
          
